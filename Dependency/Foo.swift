@@ -8,8 +8,15 @@
 
 import Foundation
 
-struct Foo {
+public struct Foo {
+    
+    let message: String
+    
+    public init(message: String) {
+        self.message = message
+    }
+    
     public func hello() -> String {
-        return "Hello"
+        return message
     }
 }
