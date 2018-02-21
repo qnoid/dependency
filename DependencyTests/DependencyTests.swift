@@ -22,8 +22,9 @@ class DependencyTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let bar = Bar(message: "bar")
+        
+        XCTAssertEqual("bar", bar.hello())
     }
     
     func testPerformanceExample() {

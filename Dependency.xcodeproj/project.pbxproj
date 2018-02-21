@@ -11,6 +11,7 @@
 		BD97B9CD203E21DF002C68D5 /* DependencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97B9CC203E21DF002C68D5 /* DependencyTests.swift */; };
 		BD97B9CF203E21DF002C68D5 /* Dependency.h in Headers */ = {isa = PBXBuildFile; fileRef = BD97B9C1203E21DF002C68D5 /* Dependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD97B9D9203E21EC002C68D5 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97B9D8203E21EC002C68D5 /* Foo.swift */; };
+		BDBEE8DB203E27D300071536 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBEE8DA203E27D300071536 /* Bar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		BD97B9CC203E21DF002C68D5 /* DependencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyTests.swift; sourceTree = "<group>"; };
 		BD97B9CE203E21DF002C68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD97B9D8203E21EC002C68D5 /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		BDBEE8DA203E27D300071536 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				BD97B9C1203E21DF002C68D5 /* Dependency.h */,
 				BD97B9C2203E21DF002C68D5 /* Info.plist */,
 				BD97B9D8203E21EC002C68D5 /* Foo.swift */,
+				BDBEE8DA203E27D300071536 /* Bar.swift */,
 			);
 			path = Dependency;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD97B9D9203E21EC002C68D5 /* Foo.swift in Sources */,
+				BDBEE8DB203E27D300071536 /* Bar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
